@@ -1,0 +1,39 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp-auth-app", "csharp-auth-app", "{20E1A6DA-69D8-A183-B892-DA3532FD6BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAuthApp", "csharp-auth-app\src\CSharpAuthApp.csproj", "{28F4D2A1-3610-9713-9C5A-FE956EFEC8F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1A8531B7-6A0D-28DA-1D20-CD1EF5FDBEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-auth-app.Tests", "csharp-auth-app\tests\csharp-auth-app.Tests\csharp-auth-app.Tests.csproj", "{9CFC7628-0339-6306-314F-DAEEB07FECD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F4D2A1-3610-9713-9C5A-FE956EFEC8F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F4D2A1-3610-9713-9C5A-FE956EFEC8F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F4D2A1-3610-9713-9C5A-FE956EFEC8F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F4D2A1-3610-9713-9C5A-FE956EFEC8F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CFC7628-0339-6306-314F-DAEEB07FECD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFC7628-0339-6306-314F-DAEEB07FECD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFC7628-0339-6306-314F-DAEEB07FECD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFC7628-0339-6306-314F-DAEEB07FECD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28F4D2A1-3610-9713-9C5A-FE956EFEC8F1} = {20E1A6DA-69D8-A183-B892-DA3532FD6BF6}
+		{1A8531B7-6A0D-28DA-1D20-CD1EF5FDBEB1} = {20E1A6DA-69D8-A183-B892-DA3532FD6BF6}
+		{9CFC7628-0339-6306-314F-DAEEB07FECD5} = {1A8531B7-6A0D-28DA-1D20-CD1EF5FDBEB1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A2C94D3-2DA4-4100-9A14-C5976001E88A}
+	EndGlobalSection
+EndGlobal

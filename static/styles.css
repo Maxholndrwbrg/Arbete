@@ -1,0 +1,59 @@
+.flash-messages {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.flash-success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #3c763d;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.flash-error {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #a94442;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.flash-info {
+    background-color: #d9edf7;
+    color: #31708f;
+    border: 1px solid #31708f;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin: 5px 0;
+    padding: 5px;
+    width: 200px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
